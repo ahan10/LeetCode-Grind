@@ -19,3 +19,6 @@ class Solution:
                 return False
 
         return not stk  # after all the stacks operations have been done, return true if the stk is empty else false
+
+# Time: O(n)
+# Space: O(n)
