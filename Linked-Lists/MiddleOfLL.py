@@ -40,4 +40,3 @@ class Solution:
             middle -= 1
             curr1 = curr1.next
         return curr1
-
