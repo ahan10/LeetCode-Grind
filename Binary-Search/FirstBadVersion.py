@@ -16,3 +16,6 @@ class Solution:
             else: # else, we know that versions till m are good, so it must lie in the range of middle+1 to right
                 l = m + 1
         return l # when we exit the loop, l = r, so return either l or r
+
+# Time: O(log n)
+# Space: O(1)
