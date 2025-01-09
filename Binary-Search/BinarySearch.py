@@ -16,5 +16,5 @@ class Solution:
         # if the element is not found return -1
         return -1
 
-# Time: O(n log n)
+# Time: O(log n)
 # Space: O(1)
