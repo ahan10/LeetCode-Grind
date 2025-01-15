@@ -17,3 +17,5 @@ class Solution:
             longest = max(longest, (r - l + 1))
 
         return longest
+# Time: O(n)
+# Space: O(1)
