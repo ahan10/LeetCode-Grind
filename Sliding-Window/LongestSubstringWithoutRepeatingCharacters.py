@@ -24,3 +24,4 @@ class Solution:
         return longest
 
     # Time: O(n); even though there are two loops, only the for loop runs for n times, and while loop doesn't run for the whole n iterations
+    # Space: O(n) since we use a set t store values and in worst case, all of then are unique, we will have a set of length n
